@@ -15,7 +15,6 @@ public class Cliente {
     private String nome;
     private String telefone;
 
-    // Getters e Setters
     public Long getId() {
         return id;
     }
@@ -40,7 +39,6 @@ public class Cliente {
         this.telefone = telefone;
     }
 
-    // Construtores
     public Cliente() {}
 
     public Cliente(String nome, String telefone) {
