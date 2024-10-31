@@ -15,7 +15,6 @@ public class Produto {
     private Double preco;
     private Boolean disponivel;
 
-    // Getters e Setters
     public Long getId() {
         return id;
     }
@@ -56,7 +55,6 @@ public class Produto {
         this.disponivel = disponivel;
     }
 
-    // Construtores
     public Produto() {}
 
     public Produto(String nome, String descricao, Double preco, Boolean disponivel) {
